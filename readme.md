@@ -3,7 +3,7 @@
 Or how to master css using available free content.
 
 <figure>
-  <img src="https://images.unsplash.com/photo-1517446915321-65e972f1b494" alt="Photo by Paula May on Unsplash">
+  <img src="https://images.unsplash.com/photo-1517446915321-65e972f1b494?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Photo by Paula May on Unsplash">
   <figcaption>Photo by <a href="https://unsplash.com/@paulamayphotography">Paula May</a> on <a href="https://unsplash.com/">Unsplash</a></figcaption>
 </figure>
 
@@ -41,8 +41,6 @@ But before you start you need to learn the basics of html & css then follow the 
 - [CSS Architecture](#css-architecture)
 - [CSS Frameworks](#css-frameworks)
 
----
-
 ### CSS Selectors
 
 In CSS, selectors are used to target the HTML elements on our web pages that we want to style.
@@ -76,8 +74,6 @@ In CSS, selectors are used to target the HTML elements on our web pages that we 
 - [Attribute Selectors | MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Attribute_selectors)
 - [Pseudo-class and Pseudo-element Selectors | MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements)
 
----
-
 ### CSS Units & Values
 
 #### 📖 Contents
@@ -110,8 +106,6 @@ In CSS, selectors are used to target the HTML elements on our web pages that we 
 
   - [Learn CSS Variables Course | Scrimba](https://scrimba.com/g/gcssvariables)
   - [Everything you need to know about CSS Variables | Freecodecamp](https://medium.freecodecamp.org/everything-you-need-to-know-about-css-variables-c74d922ea855)
-
----
 
 ### Styling Content
 
@@ -167,8 +161,6 @@ Styling Content involves manipulating how elements should look like, What `font-
 - [The box model | MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)
 - [A Complete Guide to the Table Element | CSS Tricks](https://css-tricks.com/complete-guide-table-element/)
 - [Styling Links | MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links)
-
----
 
 ### CSS Layout
 
@@ -231,8 +223,6 @@ Layout involves manipulating how elements lay out on the page, How much space do
 
   - [When And How To Use CSS Multi-Column Layout | Smashing Magazine](https://www.smashingmagazine.com/2019/01/css-multiple-column-layout-multicol/)
 
----
-
 ### CSS Specificity
 
 Once you've started to become comfortable with the basics of CSS - using it to change the layout and graphical features of your page, it is time to learn how to use it well. Once of the most important concepts to master as you start to dig into more advanced concepts is specificity - how the browser decides what styles to apply where. This will be key in understanding why and how different CSS naming systems and architectures are designed the way they are.
@@ -253,8 +243,6 @@ Once you've started to become comfortable with the basics of CSS - using it to c
 - [Cascading and Inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance)
 - [inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance)
 - [Debugging CSS Code](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Debugging_CSS)
-
----
 
 ### Responsive Web Design
 
@@ -277,8 +265,6 @@ Responsive design is the practice of designing a website so it looks and works p
 
 - [Responsive Web Design Fundamentals](https://udacity.com/course/responsive-web-design-fundamentals--ud893)
 - [Responsive Images](https://udacity.com/course/responsive-images--ud882)
-
----
 
 ### CSS Animations and Drawing
 
@@ -329,8 +315,6 @@ CSS Animations involves manipulating how elements should look like over the time
 - [A Simple CSS Animation Tutorial | Freecodecamp](https://medium.freecodecamp.org/a-simple-css-animation-tutorial-8a35aa8e87ff)
 - [CSS Animation Performance](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
 
----
-
 ### CSS Preprocessors
 
 The use of CSS preprocessors has become so important especially when you start working on large project.
@@ -353,8 +337,6 @@ Learn about the most famous and common used preprocessor ( SASS ), Why i use it?
 - [How to structure a Sass project](http://thesassway.com/beginner/how-to-structure-a-sass-project)
 - [PostCSS – A Comprehensive Introduction | Smashing Magazine](https://www.smashingmagazine.com/2015/12/introduction-to-postcss/)
 
----
-
 ### CSS Architecture
 
 If you're not careful, it is easy to write complex, confusing, and unmaintable CSS. so there is many way to manage that.
@@ -371,8 +353,6 @@ If you're not careful, it is easy to write complex, confusing, and unmaintable C
 #### 📚 Resources
 
 - [BEM For Beginners: Why You Need BEM | Smashing Magazine](https://www.smashingmagazine.com/2018/06/bem-for-beginners/)
-
----
 
 ### CSS Frameworks
 
@@ -401,8 +381,6 @@ In this area you can pick up any framework you want, but i will list here the mo
   - [Vanilla CSS vs Bootstrap vs Tailwind CSS - Which one should you choose?](https://www.youtube.com/watch?v=vmXIGdP8KN8)
   - [Introduction to Tailwind CSS](https://www.youtube.com/playlist?list=PLylMDDjFIp1Dt5hWKHPIHtdF2GFAS8Ak9)
   - [Tailwind CSS](https://www.youtube.com/playlist?list=PLEhEHUEU3x5p8cxOJ27w20LffCknp935L)
-
----
 
 ## Where to go next?
 
