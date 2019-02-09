@@ -2,10 +2,7 @@
 
 Or how to master css using available free content.
 
-<figure>
-  <img src="https://images.unsplash.com/photo-1517446915321-65e972f1b494?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
-  <figcaption>Photo by <a href="https://unsplash.com/@paulamayphotography?utm_source=medium&utm_medium=referral">Paula May</a> on <a href="https://unsplash.com/">Unsplash</a></figcaption>
-</figure>
+![Photo by Paula May on Unsplash](https://images.unsplash.com/photo-1517446915321-65e972f1b494 "Photo by <a href="https://unsplash.com/@paulamayphotography">Paula May</a> on <a href="https://unsplash.com/">Unsplash</a>")
 
 Learning css is easy at first place, but it become a pain in a head when you want to master it not for lack of tutorials but for lack of path or fully curriculum to mastering it, here i am going to show you how to master css by following my comprehensive curriculum collecting it from many resources in the internet.
 
