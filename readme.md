@@ -2,7 +2,12 @@
 
 Or how to master css using available free content.
 
-![Photo by Paula May on Unsplash](https://images.unsplash.com/photo-1517446915321-65e972f1b494 "Photo by <a href="https://unsplash.com/@paulamayphotography">Paula May</a> on <a href="https://unsplash.com/">Unsplash</a>")
+<figure>
+  <img src="https://images.unsplash.com/photo-1517446915321-65e972f1b494" alt="Photo by Paula May on Unsplash">
+  <figcaption>Photo by <a href="https://unsplash.com/@paulamayphotography">Paula May</a> on <a href="https://unsplash.com/">Unsplash</a></figcaption>
+</figure>
+
+<br/><br/>
 
 Learning css is easy at first place, but it become a pain in a head when you want to master it not for lack of tutorials but for lack of path or fully curriculum to mastering it, here i am going to show you how to master css by following my comprehensive curriculum collecting it from many resources in the internet.
 
@@ -23,8 +28,6 @@ But before you start you need to learn the basics of html & css then follow the 
 - [HTML Crash Course For Absolute Beginners](https://www.youtube.com/watch?v=UB1O30fR-EE) - by Traversy Media on Youtube.
 - [CSS Crash Course For Absolute Beginners](https://www.youtube.com/watch?v=yfoY53QXEnI) - by Traversy Media on Youtube.
 
----
-
 ## 📆 Curriculum
 
 - [CSS Selectors](#css-selectors)
@@ -37,6 +40,8 @@ But before you start you need to learn the basics of html & css then follow the 
 - [CSS Preprocessors](#css-preprocessors)
 - [CSS Architecture](#css-architecture)
 - [CSS Frameworks](#css-frameworks)
+
+---
 
 ### CSS Selectors
 
