@@ -30,15 +30,24 @@ But before you start you need to learn the basics of html & css then follow the 
 
 ## 📆 Curriculum
 
+In general we can divided css into four main category
+
+1. CSS Grammar includes CSS Selectors, Units, Values and Specificity.
+2. Visual include styling content across devicess ( Responsive Web Design ) and during period of time ( Animations ).
+3. Layout includes CSS Layout ( display & positioning ).
+4. Management includes CSS Preprocessors, Methodologies and Frameworks.
+
+But when you learn follow this topics in order.
+
 - [CSS Selectors](#css-selectors)
-- [CSS Units & Values](#css-values)
-- [Styling Content](#styling)
+- [CSS Units & Values](#css-units-&-values)
+- [Styling Content](#styling-content)
 - [CSS Layout](#css-layout)
 - [CSS Specificity](#css-specificity)
 - [Responsive Web Design](#responsive-web-design)
 - [CSS Animations and Drawing](#css-animations-and-drawing)
 - [CSS Preprocessors](#css-preprocessors)
-- [CSS Architecture](#css-architecture)
+- [CSS Methodologies](#css-methodologies)
 - [CSS Frameworks](#css-frameworks)
 
 ### CSS Selectors
@@ -337,7 +346,7 @@ Learn about the most famous and common used preprocessor ( SASS ), Why i use it?
 - [How to structure a Sass project](http://thesassway.com/beginner/how-to-structure-a-sass-project)
 - [PostCSS – A Comprehensive Introduction | Smashing Magazine](https://www.smashingmagazine.com/2015/12/introduction-to-postcss/)
 
-### CSS Architecture
+### CSS Methodologies
 
 If you're not careful, it is easy to write complex, confusing, and unmaintable CSS. so there is many way to manage that.
 
