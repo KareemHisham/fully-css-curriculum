@@ -1,4 +1,4 @@
-# I built my own css curriculum to master it
+# CSS master class curriculum
 
 Or how to master css using available free content.
 
@@ -7,7 +7,7 @@ Or how to master css using available free content.
   <figcaption>Photo by <a href="https://unsplash.com/@paulamayphotography">Paula May</a> on <a href="https://unsplash.com/">Unsplash</a></figcaption>
 </figure>
 
-<br/><br/>
+<br/>
 
 Learning css is easy at first place, but it become a pain in a head when you want to master it not for lack of tutorials but for lack of path or fully curriculum to mastering it, here i am going to show you how to master css by following my comprehensive curriculum collecting it from many resources in the internet.
 
@@ -30,25 +30,35 @@ But before you start you need to learn the basics of html & css then follow the 
 
 ## 📆 Curriculum
 
-In general we can divided css into four main category
+CSS can be categorised into four main category:
 
-1. CSS Grammar includes CSS Selectors, Units, Values and Specificity.
-2. Visual include styling content across devicess ( Responsive Web Design ) and during period of time ( Animations ).
-3. Layout includes CSS Layout ( display & positioning ).
-4. Management includes CSS Preprocessors, Methodologies and Frameworks.
-
-But when you learn follow this topics in order.
+1. **Syntax:** includes selectors, properties, values and specificity.
+2. **Visual:** includes styling content, responsive web design and animations.
+3. **Layout:** includes css layout ( display & positioning ).
+4. **Management:** includes css preprocessors, methodologies and frameworks.
 
 - [CSS Selectors](#css-selectors)
-- [CSS Units & Values](#css-units-&-values)
+- [CSS Properties](#css-properties)
+- [CSS Values](#css-values)
+- [CSS Specificity](#css-specificity)
 - [Styling Content](#styling-content)
 - [CSS Layout](#css-layout)
-- [CSS Specificity](#css-specificity)
 - [Responsive Web Design](#responsive-web-design)
 - [CSS Animations and Drawing](#css-animations-and-drawing)
 - [CSS Preprocessors](#css-preprocessors)
 - [CSS Methodologies](#css-methodologies)
 - [CSS Frameworks](#css-frameworks)
+
+### Syntax
+
+![CSS Syntax](imgs/selector.gif)
+
+A CSS rule-set consists of a selector and a declaration block:
+
+The selector points to the HTML element you want to style.
+The declaration block contains one or more declarations separated by semicolons.
+Each declaration includes a CSS property name and a value, separated by a colon.
+A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.(Source: w3schools)
 
 ### CSS Selectors
 
@@ -83,7 +93,24 @@ In CSS, selectors are used to target the HTML elements on our web pages that we 
 - [Attribute Selectors | MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Attribute_selectors)
 - [Pseudo-class and Pseudo-element Selectors | MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements)
 
-### CSS Units & Values
+### CSS Properties
+
+**Note:** You will learn more about properties when you get into proper section but you can learn some generic concept like css variables.
+
+#### 📖 Contents
+
+- CSS Variables
+
+#### 📚 Resources
+
+- [Learn CSS Variables Course | Scrimba](https://scrimba.com/g/gcssvariables)
+- [CSS Custom Properties Guide | CSS Tricks](https://css-tricks.com/guides/css-custom-properties/)
+- [Everything you need to know about CSS Variables | Freecodecamp](https://medium.freecodecamp.org/everything-you-need-to-know-about-css-variables-c74d922ea855)
+
+### CSS Values
+
+CSS values are set against CSS Properties and reside within CSS declaration block, which is a part of the CSS rule / statement.
+**Note:** You will learn more about each value type when you get into proper section but you can learn some generic values like rem, colors, calc ...etc.
 
 #### 📖 Contents
 
@@ -105,16 +132,32 @@ In CSS, selectors are used to target the HTML elements on our web pages that we 
 
 #### 📚 Resources
 
-- CSS Colors and Gradients
+- [Color | MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+- [A Nerd’s Guide to Color on the Web | CSS Tricks](https://css-tricks.com/nerds-guide-color-web/)
+- [CSS Gradients Guides | CSS Tricks](https://css-tricks.com/guides/css-gradients/)
+- [A Couple of Use Cases for Calc() | CSS Tricks](https://css-tricks.com/a-couple-of-use-cases-for-calc/)
 
-  - [Color | MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
-  - [A Nerd’s Guide to Color on the Web | CSS Tricks](https://css-tricks.com/nerds-guide-color-web/)
-  - [CSS Gradients Guides | CSS Tricks](https://css-tricks.com/guides/css-gradients/)
+### CSS Specificity
 
-- CSS Variables
+At some point in your work, you'll find yourself in the situation where multiple CSS rules will have selectors matching the same element. In such cases, which CSS rule "wins", and ends up being the one that is finally applied to the element? This is controlled by a mechanism called the Cascade, One of the most important concepts to master as you start to dig into more advanced concepts is specificity, Specificity is basically a measure of how specific a selector is.(Source: MDN)
 
-  - [Learn CSS Variables Course | Scrimba](https://scrimba.com/g/gcssvariables)
-  - [Everything you need to know about CSS Variables | Freecodecamp](https://medium.freecodecamp.org/everything-you-need-to-know-about-css-variables-c74d922ea855)
+#### 📖 Contents
+
+- Specificity hierarchy
+
+  - Inline styles
+  - IDs
+  - Classes, attributes and pseudo-classes
+  - Elements and pseudo-elements
+
+#### 📚 Resources
+
+- [The “C” in CSS: The Cascade | CSS Tricks](https://css-tricks.com/the-c-in-css-the-cascade/)
+- [Cascading and Inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance)
+- [CSS Basics (Part2) — Cascades](https://www.youtube.com/watch?v=tZhmjgLQgXU) - by DevTips on Youtube.
+- [CSS Basics (Part6) — Specificity](https://www.youtube.com/watch?v=fy07HYm-geM) - by DevTips on Youtube.
+- [inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance)
+- [Debugging CSS Code](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Debugging_CSS)
 
 ### Styling Content
 
@@ -232,40 +275,19 @@ Layout involves manipulating how elements lay out on the page, How much space do
 
   - [When And How To Use CSS Multi-Column Layout | Smashing Magazine](https://www.smashingmagazine.com/2019/01/css-multiple-column-layout-multicol/)
 
-### CSS Specificity
-
-Once you've started to become comfortable with the basics of CSS - using it to change the layout and graphical features of your page, it is time to learn how to use it well. Once of the most important concepts to master as you start to dig into more advanced concepts is specificity - how the browser decides what styles to apply where. This will be key in understanding why and how different CSS naming systems and architectures are designed the way they are.
-
-#### 📖 Contents
-
-- Specificity hierarchy
-
-  - Inline styles
-  - IDs
-  - Classes, attributes and pseudo-classes
-  - Elements and pseudo-elements
-
-#### 📚 Resources
-
-- [CSS Basics (Part2) — Cascades](https://www.youtube.com/watch?v=tZhmjgLQgXU) - by DevTips on Youtube.
-- [CSS Basics (Part6) — Specificity](https://www.youtube.com/watch?v=fy07HYm-geM) - by DevTips on Youtube.
-- [Cascading and Inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance)
-- [inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance)
-- [Debugging CSS Code](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Debugging_CSS)
-
 ### Responsive Web Design
 
-Responsive design is the practice of designing a website so it looks and works properly on a range of different devices — particularly mobile phones and tablets as well as desktops and laptops.
+Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices desktops, tablets, and phones. (Source: w3schools)
 
 #### 📖 Contents
 
 - Media Queries
+- Responsive Images
 - Common Responsive Patterns
   - Mostly Fluid
   - Column Drop
   - Layout Shifter
   - Off Canvas
-- Responsive Images
 - Which Method Should You Use for Your Responsive Layout?
   - Mobile-First
   - Desktop-First
