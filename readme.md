@@ -51,7 +51,10 @@ CSS can be categorised into four main category:
 
 ### Syntax
 
-![CSS Syntax](imgs/selector.gif)
+<figure>
+  <img src="https://www.w3schools.com/css/selector.gif" alt="Photo by Paula May on Unsplash">
+  <figcaption>Photo taken from w3schools</figcaption>
+</figure>
 
 A CSS rule-set consists of a selector and a declaration block:
 
