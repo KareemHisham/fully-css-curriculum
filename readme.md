@@ -2,10 +2,10 @@
 
 Or how to master css using available free content.
 
-<figure style="text-align: center;">
+<p style="text-align: center;">
   <img src="https://images.unsplash.com/photo-1517446915321-65e972f1b494?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Photo by Paula May on Unsplash">
-  <figcaption>Photo by <a href="https://unsplash.com/@paulamayphotography">Paula May</a> on <a href="https://unsplash.com/">Unsplash</a></figcaption>
-</figure>
+  <p style="text-align: center;">Photo by <a href="https://unsplash.com/@paulamayphotography">Paula May</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+</p>
 
 <br/>
 
@@ -52,10 +52,10 @@ CSS can be categorised into four main category:
 
 ### Syntax
 
-<figure style="text-align: center;">
+<p style="text-align: center;">
   <img src="https://www.w3schools.com/css/selector.gif" alt="css syntax">
-  <figcaption>Photo taken from w3schools</figcaption>
-</figure>
+  <p style="text-align: center;">Photo taken from w3schools</p>
+</p>
 
 <br/>
 
@@ -166,10 +166,10 @@ At some point in your work, you'll find yourself in the situation where multiple
 
 ### CSS Box Model
 
-<figure style="text-align: center;">
+<p style="text-align: center;">
   <img src="https://www.w3.org/TR/CSS2/images/boxdim.png" alt="css box model">
-  <figcaption>Photo taken from w3.org</figcaption>
-</figure>
+  <p style="text-align: center;">Photo taken from w3.org</p>
+</p>
 
 <br/>
 
