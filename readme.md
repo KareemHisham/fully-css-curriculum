@@ -2,7 +2,7 @@
 
 Or how to master css using available free content.
 
-<figure>
+<figure style="text-align: center;">
   <img src="https://images.unsplash.com/photo-1517446915321-65e972f1b494?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Photo by Paula May on Unsplash">
   <figcaption>Photo by <a href="https://unsplash.com/@paulamayphotography">Paula May</a> on <a href="https://unsplash.com/">Unsplash</a></figcaption>
 </figure>
@@ -41,6 +41,7 @@ CSS can be categorised into four main category:
 - [CSS Properties](#css-properties)
 - [CSS Values](#css-values)
 - [CSS Specificity](#css-specificity)
+- [CSS Box Model](#css-box-model)
 - [Styling Content](#styling-content)
 - [CSS Layout](#css-layout)
 - [Responsive Web Design](#responsive-web-design)
@@ -51,10 +52,12 @@ CSS can be categorised into four main category:
 
 ### Syntax
 
-<figure>
-  <img src="https://www.w3schools.com/css/selector.gif" alt="Photo by Paula May on Unsplash">
+<figure style="text-align: center;">
+  <img src="https://www.w3schools.com/css/selector.gif" alt="css syntax">
   <figcaption>Photo taken from w3schools</figcaption>
 </figure>
+
+<br/>
 
 A CSS rule-set consists of a selector and a declaration block:
 
@@ -69,14 +72,14 @@ In CSS, selectors are used to target the HTML elements on our web pages that we 
 
 #### 📖 Contents
 
-- Simple Selectors
+- **Simple Selectors:**
 
   - Element
   - Class
   - Id
   - Universal Selector ( _, ns|_, _|_, |\* )
 
-- Combinators & Multiple selectors
+- **Combinators & Multiple selectors:**
 
   - Group of selector [A, B].
   - Descendant selector [A B].
@@ -84,9 +87,9 @@ In CSS, selectors are used to target the HTML elements on our web pages that we 
   - Adjacent sibling selector [A + B].
   - General sibling selector [A ~ B].
 
-- Attribute Selectors
-- Pseudo-class Selectors
-- Pseudo-element Selectors
+- **Attribute Selectors**
+- **Pseudo-class Selectors**
+- **Pseudo-element Selectors**
 
 #### 📚 Resources
 
@@ -102,7 +105,7 @@ In CSS, selectors are used to target the HTML elements on our web pages that we 
 
 #### 📖 Contents
 
-- CSS Variables
+- **CSS Variables**
 
 #### 📚 Resources
 
@@ -146,12 +149,11 @@ At some point in your work, you'll find yourself in the situation where multiple
 
 #### 📖 Contents
 
-- Specificity hierarchy
-
-  - Inline styles
-  - IDs
-  - Classes, attributes and pseudo-classes
-  - Elements and pseudo-elements
+- **Specificity hierarchy:**
+  - Inline styles.
+  - IDs.
+  - Classes, attributes and pseudo-classes.
+  - Elements and pseudo-elements.
 
 #### 📚 Resources
 
@@ -162,58 +164,62 @@ At some point in your work, you'll find yourself in the situation where multiple
 - [inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance)
 - [Debugging CSS Code](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Debugging_CSS)
 
-### Styling Content
+### CSS Box Model
 
-Once you have the ability to target html elements, styling target html element ( the content ) of your page is the next big core conecpt to master.
-Styling Content involves manipulating how elements should look like, What `font-size` , `color`, `background`, `border` ...etc.
+<figure style="text-align: center;">
+  <img src="https://www.w3.org/TR/CSS2/images/boxdim.png" alt="css box model">
+  <figcaption>Photo taken from w3.org</figcaption>
+</figure>
+
+<br/>
+
+The CSS box model is the foundation of layout on the Web — each element is represented as a rectangular box, with the box's content, padding, border, and margin built up around one another like the layers of an onion. As a browser renders a web page layout, it works out what styles are applied to the content of each box, how big the surrounding onion layers are, and where the boxes sit in relation to one another. Before understanding how to create CSS layouts, you need to understand the box model. (source: MDN)
 
 #### 📖 Contents
 
-- Typography
-  - Use HTML Tags for text
-  - font-size
-  - font-family
-  - font-weight
-  - font-style
-  - line-height
-  - color
-  - text-align
-  - text-transform
-  - text-decoration
-- Lists
-- Links
-- Media ( Image, Video and Audio )
-- Tables
-- Forms
-- Buttons
-- CSS Box Model
-  - Content ( images, text .... etc )
-  - Padding ( Transparent area around the content, inside of the box )
-  - Borders ( goes around the padding and content )
-  - Margins ( Space around elements, outside of any defined borders. )
-  - Fill Area ( area the contain border, padding and content, and filling with backround and bacground-image )
-  - Box Sizing
-    - content-box: Width and height only apply to the content of the element
-    - border-box: Include padding and border in the element's total width and height
-  - Background
-    - background
-    - background-color
-    - background-image
-      - Multiple Background Images.
-      - Linear Gradients.
-      - Radial Gradients.
-    - background-size
-    - background-position
-    - background-repeat
-    - background-attachment
-    - background-origin
-    - background-clip
-    - background-blend-mode
-  - clip-path
+- **Content** ( images, text …etc ).
+- **Padding** ( Transparent area around the content, inside of the box ).
+- **Borders** ( goes around the padding and content ).
+- **Fill Area** ( area the contain border, padding and content, and filling with backround and bacground-image ).
+- **Margins** ( Space around elements, outside of any defined borders. ).
+- **Box Sizing:**
+  - content-box: Width and height only apply to the content of the element.
+  - border-box: Include padding and border in the element's total width and height.
+- **Background:**
+  - background-color.
+  - background-image.
+  - background-size.
+  - background-position.
+  - background-repeat.
+  - background-attachment.
+  - background-origin.
+  - background-clip.
+  - background-blend-mode.
+  - Multiple Background Images.
+  - Linear Gradients.
+  - Radial Gradients.
+- **clip-path**
 
 #### 📚 Resources
 
 - [The box model | MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)
+
+### Styling Content
+
+After you learn the box-model, learning styling content _( which is the part of box-model )_ is the big core concept to master. In this section you will learn how to style those content like images, text, lists, links ...etc.
+
+#### 📖 Contents
+
+- Typography.
+- Lists.
+- Links.
+- Media ( Image, Video and Audio ).
+- Tables.
+- Forms.
+- Buttons.
+
+#### 📚 Resources
+
 - [A Complete Guide to the Table Element | CSS Tricks](https://css-tricks.com/complete-guide-table-element/)
 - [Styling Links | MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links)
 
@@ -224,23 +230,23 @@ Layout involves manipulating how elements lay out on the page, How much space do
 
 #### 📖 Contents
 
-- Normal flow
-- The display property
-  - Block
-  - Inline
-  - Inline-Block
-  - Flexbox
-  - Grid
-  - Table
-- Floats
-- Positioning
-  - Default ( no property specified or Static )
-  - Relative
-  - Absoulte
-  - Fixed
-  - Sticky
-  - Stacking Content ( Z-Index property )
-- Multiple-column layout
+- **Normal flow**
+- **The display property:**
+  - Block.
+  - Inline.
+  - Inline-Block.
+  - Flexbox.
+  - Grid.
+  - Table.
+- **Floats**
+- **Positioning**
+  - Default ( no property specified or Static ).
+  - Relative.
+  - Absoulte.
+  - Fixed.
+  - Sticky.
+  - Stacking Content ( Z-Index property ).
+- **Multiple-column layout**
 
 #### 📚 Resources
 
@@ -284,16 +290,16 @@ Responsive Web Design is about using HTML and CSS to automatically resize, hide,
 
 #### 📖 Contents
 
-- Media Queries
-- Responsive Images
-- Common Responsive Patterns
-  - Mostly Fluid
-  - Column Drop
-  - Layout Shifter
-  - Off Canvas
-- Which Method Should You Use for Your Responsive Layout?
-  - Mobile-First
-  - Desktop-First
+- **Media Queries**
+- **Responsive Images**
+- **Common Responsive Patterns**
+  - Mostly Fluid.
+  - Column Drop.
+  - Layout Shifter.
+  - Off Canvas.
+- **Responsive Layout Methods:**
+  - Mobile-First.
+  - Desktop-First.
 
 #### 📚 Resources
 
@@ -306,42 +312,41 @@ CSS Animations involves manipulating how elements should look like over the time
 
 #### 📖 Contents
 
-- CSS Animations: Transforms
+- **CSS Animations - Transforms:**
 
-  - Transform translate()
-  - Transform rotate() and Transform-Origin
-  - Transform scale()
-  - Transform skew()
-  - Transform Shorthand
+  - Transform translate().
+  - Transform rotate() and Transform-Origin.
+  - Transform scale().
+  - Transform skew().
+  - Transform Shorthand.
 
-- CSS Animations: Transitions
+- **CSS Animations - Transitions:**
 
-  - Transition Duration
-  - Transition Property
-  - Transition Timing Function
-  - Transition Delay
-  - Transition Shorthand
+  - Transition Duration.
+  - Transition Property.
+  - Transition Timing Function.
+  - Transition Delay.
+  - Transition Shorthand.
 
-- CSS Animations: Keyframes
+- **CSS Animations - Keyframes:**
 
-  - CSS Animation Keyframes
-  - CSS Animation Duration
-  - CSS Animation Fil Mode
-  - CSS Animation Iteration Count
-  - CSS Animation Delay
-  - CSS Animation Direction
-  - CSS Animation Timing Function
-  - CSS Animation Properties
-  - CSS Animation Shorthand
+  - CSS Animation Keyframes.
+  - CSS Animation Duration.
+  - CSS Animation Fil Mode.
+  - CSS Animation Iteration Count.
+  - CSS Animation Delay.
+  - CSS Animation Direction.
+  - CSS Animation Timing Function.
+  - CSS Animation Properties.
+  - CSS Animation Shorthand.
 
-- CSS Shapes
-
-  - CSS Shapes: the inset() function
-  - CSS Shapes: The circle() Function
-  - CSS Shapes: The ellipse() Function
-  - CSS Shapes: The polygon() function
-  - CSS Shapes: Shapes from the Alpha Channel
-  - CSS Shapes: Shapes from the Reference Box
+- **CSS Shapes:**
+  - CSS Shapes: the inset() function.
+  - CSS Shapes: The circle() Function.
+  - CSS Shapes: The ellipse() Function.
+  - CSS Shapes: The polygon() function.
+  - CSS Shapes: Shapes from the Alpha Channel.
+  - CSS Shapes: Shapes from the Reference Box.
 
 #### 📚 Resources
 
@@ -356,11 +361,11 @@ Learn about the most famous and common used preprocessor ( SASS ), Why i use it?
 
 #### 📖 Contents
 
-- Common Preprocessors
-  - SASS
-  - LESS
-  - Stylus
-  - PostCSS
+- **Common Preprocessors:**
+  - SASS.
+  - LESS.
+  - Stylus.
+  - PostCSS.
 
 #### 📚 Resources
 
@@ -377,12 +382,12 @@ If you're not careful, it is easy to write complex, confusing, and unmaintable C
 
 #### 📖 Contents
 
-- Common naming conventions
-  - [BEM](http://getbem.com/)
-  - [OOCSS](http://oocss.org/)
-  - [SMACSS](https://smacss.com/)
-  - [SUITCSS](https://suitcss.github.io/)
-  - [Atomic](https://acss.io/)
+- **Common naming conventions:**
+  - [BEM](http://getbem.com/).
+  - [OOCSS](http://oocss.org/).
+  - [SMACSS](https://smacss.com/).
+  - [SUITCSS](https://suitcss.github.io/).
+  - [Atomic](https://acss.io/).
 
 #### 📚 Resources
 
@@ -394,9 +399,9 @@ In this area you can pick up any framework you want, but i will list here the mo
 
 #### 📖 Contents
 
-- Bootstrap
-- Bulma
-- Tailwind CSS
+- **Bootstrap**
+- **Bulma**
+- **Tailwind CSS**
 
 #### 📚 Resources
 
